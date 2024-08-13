@@ -48,10 +48,25 @@ const array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const array2 = ["one", "two", "three"];
 let array3 = ["Albatross", "Aligator", "Bat", "Bear", "Cat", "Caterpillar", "Kangaroo"];
 let num = 4;
-console.log(arraySum(array1));
-console.log(arrayAverage(array1));
-console.log(largestString(array2));
-console.log(stringsLongerThan(array3, num));
+let num2 = 8;
+console.log("Sum: " + arraySum(array1));
+console.log("Average: " + arrayAverage(array1));
+console.log("Largest string is " + largestString(array2));
+console.log(`The strings longer than ${num} are ${stringsLongerThan(array3, num)}` );
+console.log(`Counting down from ${num2}: `);
 recursion(8);
 
-
+// Results:
+// Sum: 55
+// Average: 5.5
+// Largest string is three
+// The strings longer than 4 are Albatross,Aligator,Caterpillar,Kangaroo
+// Counting down from 8: 
+// 8
+// 7
+// 6
+// 5
+// 4
+// 3
+// 2
+// 1
